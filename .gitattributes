@@ -1,0 +1,10 @@
+.gitattributes !filter !diff
+*.env filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+.config/weechat/buddylist.txt filter=git-crypt diff=git-crypt
+.config/weechat/buffer_autoset.conf filter=git-crypt diff=git-crypt
+.config/weechat/sec.conf filter=git-crypt diff=git-crypt
+.config/weechat/irc.conf filter=git-crypt diff=git-crypt
+.config/weechat/relay.conf filter=git-crypt diff=git-crypt
+.config/weechat/trigger.conf filter=git-crypt diff=git-crypt
+.config/weechat/ssl/** filter=git-crypt diff=git-crypt

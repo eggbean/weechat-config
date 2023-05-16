@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+
+# But not these files and directories...
+!.gitignore
+!.gitattributes
+!.git-crypt/
+
+!.config/
+.config/*
+!.config/weechat/
+
+!.local/
+.local/*
+!.local/share/
+.local/share/*
+!.local/share/weechat/
+.local/share/weechat/buddylist.txt
+.local/share/weechat/weechat.log
+.local/share/weechat/logs/**
