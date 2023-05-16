@@ -5,6 +5,8 @@
 !.gitignore
 !.gitattributes
 !.git-crypt/
+!.aspell.en.prepl
+!.aspell.en.pws
 
 !.config/
 .config/*
