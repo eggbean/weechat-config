@@ -5,12 +5,11 @@
 !.gitignore
 !.gitattributes
 !.git-crypt/
-!.aspell.en.prepl
-!.aspell.en.pws
 
 !.config/
 .config/*
 !.config/weechat/
+!.config/aspell/
 
 !.local/
 .local/*
